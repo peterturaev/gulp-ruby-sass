@@ -42,14 +42,14 @@ An object containing plugin and Sass options. Available options include:
 
 ##### bundleExec
 
-Type: `Boolean`  
+Type: `Boolean`
 Default: `false`
 
 Run Sass with [bundle exec](http://gembundler.com/man/bundle-exec.1.html).
 
 ##### sourcemap
 
-Type: `Boolean`  
+Type: `Boolean`
 Default: `false`
 
 Initialize and pass Sass sourcemaps to [gulp-sourcemaps](https://github.com/floridoo/gulp-sourcemaps). Note this option replaces Sass's `sourcemap` option.
@@ -84,21 +84,21 @@ Identical to `gulp.src`'s [`base` option](https://github.com/gulpjs/gulp/blob/ma
 
 ##### tempDir
 
-Type: `String`  
+Type: `String`
 Default: the system temp directory as reported by [os-tempDir](https://github.com/sindresorhus/os-tmpdir)
 
 This plugin compiles Sass files to a temporary directory before pushing them through the stream. Use `tempDir` to choose an alternate directory if you aren't able to use the default OS temporary directory.
 
 ##### emitCompileError
 
-Type: `Boolean`  
+Type: `Boolean`
 Default: `false`
 
 Emit a gulp error when Sass compilation fails.
 
 ##### verbose
 
-Type: `Boolean`  
+Type: `Boolean`
 Default: `false`
 
 Log the spawned Sass or Bundler command. Useful for debugging.
